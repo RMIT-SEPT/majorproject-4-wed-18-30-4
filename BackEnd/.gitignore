@@ -1,6 +1,13 @@
-creds.sh
-creds2.sh
-.terraform*
-terraform.tfstate
-terraform.tfstate.backup
-tmp/
+# IDE
+.idea/
+
+# Gradle
+.gradle/
+build/
+
+# Misc
+*.log
+
+# Binary
+*.class
+*.jar
