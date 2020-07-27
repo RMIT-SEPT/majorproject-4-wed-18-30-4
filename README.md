@@ -2,7 +2,7 @@
 
 ## Members
 * IDDAMALGODA, Minura (s3633025)
-* SURNAME, GivenName (sXXXX)
+* Jin, Mingjie (s3713737)
 * SURNAME, GivenName (sXXXX)
 * SURNAME, GivenName (sXXXX)
 * SURNAME, GivenName (sXXXX)
