@@ -25,4 +25,4 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       working-directory: ./BackEnd
-      run: ./gradlew build
+      run: make build
