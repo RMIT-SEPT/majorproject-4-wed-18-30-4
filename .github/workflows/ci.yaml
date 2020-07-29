@@ -16,4 +16,5 @@ jobs:
         with:
           java-version: 1.8
       - name: Build app
-        run: ./gradlew build
+        working-directory: ./BackEnd
+        run: make build
