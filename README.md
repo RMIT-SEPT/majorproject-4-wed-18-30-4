@@ -3,7 +3,7 @@
 ## Members
 * IDDAMALGODA, Minura (s3633025)
 * Jin, Mingjie (s3713737)
-* SURNAME, GivenName (sXXXX)
+* BOC, Nathan (s3717205)
 * SURNAME, GivenName (sXXXX)
 * SURNAME, GivenName (sXXXX)
 
