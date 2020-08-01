@@ -1,5 +1,6 @@
 package com.rmit.booking_api.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -11,6 +12,7 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @ApiModelProperty(value = "The ID number", required = true)
     private Long id;
     private String name;
     private String personIdentifier;
