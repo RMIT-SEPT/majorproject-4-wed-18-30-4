@@ -1,5 +1,11 @@
+booking_api_port = 8080
+local_running_port = 8080
+
 build:
 	./gradlew clean build
+
+generate_contract:
+	cd ./swagger && ./gen_contract.sh
 
 docker_build:
 	make build
@@ -7,4 +13,4 @@ docker_build:
 
 docker_run:
 	make docker_build
-	docker run -p 8080:8080 bapi_test:latest
+	docker run -p $(local_running_port):$(booking_api_port) bapi_test:latest
