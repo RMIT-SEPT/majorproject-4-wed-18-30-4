@@ -1,0 +1,3 @@
+[submodule "booking_api_backend"]
+	path = booking_api_backend
+	url = git@github.com:SEPT-WED-1830-G4/booking_api_backend.git
