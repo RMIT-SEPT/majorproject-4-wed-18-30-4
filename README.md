@@ -7,7 +7,8 @@
 * HERNANDEZ, Chloe (s3664619)
 
 ## Links
-* [Backend API repo](https://github.com/SEPT-WED-1830-G4/booking_api_backend)
+* [Backend API repo](https://github.com/RMIT-SEPT/majorproject-4-wed-18-30-4-backend)
+* [Frontend UI repo](https://github.com/RMIT-SEPT/majorproject-4-wed-18-30-4-frontend)
 * [Notion](https://www.notion.so/Product-Backlog-2499d460daba413f9fab107a28d618de)
 
 ## Cloning the repo
