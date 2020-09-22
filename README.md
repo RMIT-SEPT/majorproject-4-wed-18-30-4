@@ -1,5 +1,8 @@
 # RMIT SEPT 2020 Major Project - Group #4 Wed 18:30
 
+## Milestone 2 links
+* [Google Drive](https://drive.google.com/drive/folders/1ipT1WoDQkrY-x-kwoG-rvIIVIZrEqoNQ?usp=sharing)
+
 ## Members
 * IDDAMALGODA, Minura (s3633025)
 * Jin, Mingjie (s3713737)
