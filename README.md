@@ -5,6 +5,7 @@
 * Jin, Mingjie (s3713737)
 * BOC, Nathan (s3717205)
 * HERNANDEZ, Chloe (s3664619)
+* PEREZ, Rafael (s3769737)
 
 ## Links
 * [Backend API repo](https://github.com/SEPT-WED-1830-G4/booking_api_backend)
