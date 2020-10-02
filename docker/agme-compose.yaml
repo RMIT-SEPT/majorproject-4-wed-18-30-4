@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    image: asia.gcr.io/sept-4-wed-18-30-285907/booking_api:latest
+    ports:
+      - 8080:8080
+  frontend:
+    image: asia.gcr.io/sept-4-wed-18-30-285907/frontend:latest
+    ports:
+      - 3000:80
