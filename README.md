@@ -19,3 +19,9 @@ Our codebase is distributed across two repositories for separation of concerns a
 
 #### Project management
 * [Notion](https://www.notion.so/Product-Backlog-2499d460daba413f9fab107a28d618de)
+
+## Docker
+To run both frontend and backend services:
+```bash
+docker-compose -f docker/agme-compose.yaml up
+```
