@@ -23,5 +23,7 @@ Our codebase is distributed across two repositories for separation of concerns a
 ## Docker
 To run both frontend and backend services:
 ```bash
+docker-compose -f docker/agme-compose.yaml pull
 docker-compose -f docker/agme-compose.yaml up
 ```
+
