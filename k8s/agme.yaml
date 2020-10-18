@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agme-depl
+  labels:
+    app: agme
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agme
+  template:
+    metadata:
+      labels:
+        app: agme
+    spec:
+      containers:
+      - name: backend-api
+        image: asia.gcr.io/sept-4-wed-18-30-285907/booking_api:latest
+        ports:
+          - containerPort: 8080
+        resources:
+          limits:
+            memory: "1G"
+            cpu: "500m"
+      - name: frontend
+        image: asia.gcr.io/sept-4-wed-18-30-285907/frontend:latest
+        ports:
+          - containerPort: 80
+        resources:
+          limits:
+            memory: "1G"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agme-service
+spec:
+  selector:
+    app: agme
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
